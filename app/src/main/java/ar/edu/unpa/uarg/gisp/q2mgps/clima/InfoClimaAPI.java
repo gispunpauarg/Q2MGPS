@@ -10,7 +10,7 @@ import retrofit2.http.GET;
  * @author Ariel Machini
  */
 public interface InfoClimaAPI {
-    String apiKey = "d459a571ba2de7d1771262a052ba2b1b";
+    String apiKey = "API_KEY";
 
     /* Coordenadas de Comandante Luis Piedrabuena: */
     // double latitud = -49.983, longitud = -68.91;
