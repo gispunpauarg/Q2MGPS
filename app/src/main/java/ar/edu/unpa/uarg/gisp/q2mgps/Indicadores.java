@@ -341,7 +341,7 @@ public class Indicadores implements LocationListener { // , GpsStatus.Listener {
                 /* Se registran los detalles en el archivo XML. */
                 ConstructorXML.adjuntarIndicador("ClimaUbicacion", latitud, longitud, climaActual.getUbicacion());
                 ConstructorXML.adjuntarIndicador("ClimaDescripcion", latitud, longitud, climaActual.getDescripcionClima());
-                ConstructorXML.adjuntarIndicador("ClimaPresion", latitud, longitud, climaActual.getDatosClima().getHumedad() + " hPa");
+                ConstructorXML.adjuntarIndicador("ClimaPresion", latitud, longitud, climaActual.getDatosClima().getPresionAtmosferica() + " hPa");
                 ConstructorXML.adjuntarIndicador("ClimaNubosidad", latitud, longitud, climaActual.getNubosidad() + "%");
                 ConstructorXML.adjuntarIndicador("ClimaTemperatura", latitud, longitud, climaActual.getDatosClima().getTemperatura() + "°C");
 
